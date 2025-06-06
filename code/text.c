@@ -16,7 +16,7 @@ int main()
 
     InitWindow(800, 600, "SLIME HERO"); // parametros dessa função é receber a altura e depois a largura da janela a ser inicializada
 
-    Texture2D slime = LoadTexture("Slime_Blue.png"); // sprite sheet com 4 quadros de 32x32 pixels
+    Texture2D slime = LoadTexture("assets/Slime_Blue.png"); // sprite sheet com 4 quadros de 32x32 pixels
 
     Rectangle frameRec = { 0.0f, 0.0f, 32, 32 }; // define qual parte da imagem será desenhada
     Vector2 posicao = { x, y };
